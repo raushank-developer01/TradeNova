@@ -2,8 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="container">
-      <div className="row">
+    <footer style={{backgroundColor:"rgb(250, 250, 250"}}>
+    <div className="container border-top mt-5">
+      <div className="row mt-5">
         <div className="col">
           <h3>TradeNova</h3>
           <p>
@@ -12,62 +13,63 @@ function Footer() {
         </div>
         <div className="col">
           <p>Company</p>
-          <a href="">About</a>
+          <a href="" style={{ textDecoration: "none" }}>About</a>
           <br />
-          <a href="">Products</a>
+          <a href="" style={{ textDecoration: "none" }}>Products</a>
           <br />
-          <a href="">Pricing</a>
+          <a href="" style={{ textDecoration: "none" }}>Pricing</a>
           <br />
-          <a href="">Referral programme</a>
+          <a href="" style={{ textDecoration: "none" }}>Referral programme</a>
           <br />
-          <a href="">Carrers</a>
+          <a href="" style={{ textDecoration: "none" }}>Carrers</a>
           <br />
-          <a href="">TradeNova.tech</a>
+          <a href="" style={{ textDecoration: "none" }}>TradeNova.tech</a>
           <br />
-          <a href="">Press & media</a>
+          <a href="" style={{ textDecoration: "none" }}>Press & media</a>
           <br />
-          <a href="">TradeNova cares (CSR)</a>
+          <a href="" style={{ textDecoration: "none" }}>TradeNova cares (CSR)</a>
           <br />
         </div>
         <div className="col">
           <p>Support</p>
-          <a href="">Contact</a>
+          <a href="" style={{ textDecoration: "none" }}>Contact</a>
           <br />
-          <a href="">Support portal</a>
+          <a href="" style={{ textDecoration: "none" }}>Support portal</a>
           <br />
-          <a href="">TN-Connect blog</a>
+          <a href="" style={{ textDecoration: "none" }}>TN-Connect blog</a>
           <br />
-          <a href="">List of charges</a>
+          <a href="" style={{ textDecoration: "none" }}>List of charges</a>
           <br />
-          <a href="">Downloads & resources</a>
+          <a href="" style={{ textDecoration: "none" }}>Downloads & resources</a>
           <br />
         </div>
         <div className="col">
           <p>Account</p>
-          <a href="">Open an account</a>
+          <a href="" style={{ textDecoration: "none" }}>Open an account</a>
           <br />
-          <a href="">Fund transfer</a>
+          <a href="" style={{ textDecoration: "none" }}>Fund transfer</a>
           <br />
-          <a href="">60 day challenge</a>
+          <a href="" style={{ textDecoration: "none" }}>60 day challenge</a>
           <br />
         </div>
       </div>
+      <div className="mt-5 text-muted" style={{fontSize:"14px"}}>
       <p>TradeNova Broking Ltd.: Member of NSE, BSE, MCX & MSEI – SEBI Registration
       no.: INZ000031633 CDSL/NSDL: Depository services through TradeNova Broking
       Ltd. – SEBI Registration no.: IN-DP-431-2019 Registered Address: TradeNova
       Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public
       School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any
-      complaints pertaining to securities broking please write to <a href="">complaints@tradenova.com</a>
-      , for DP related to <a href="">dp@tradenova.com</a>. Please ensure
+      complaints pertaining to securities broking please write to <a href="" style={{ textDecoration: "none" }}>complaints@tradenova.com</a>
+      , for DP related to <a href="" style={{ textDecoration: "none" }}>dp@tradenova.com</a>. Please ensure
       you carefully read the Risk Disclosure Document as prescribed by SEBI |
       ICF </p>
 
-      <p>Procedure to file a complaint on <a href="">SEBI SCORES</a>: Register on SCORES
+      <p>Procedure to file a complaint on <a href="" style={{ textDecoration: "none" }}>SEBI SCORES</a>: Register on SCORES
       portal. Mandatory details for filing complaints on SCORES: Name, PAN,
       Address, Mobile Number, E-mail ID. Benefits: Effective Communication,
       Speedy redressal of the grievances</p>
 
-      <p><a href="">Smart Online Dispute Resolution</a> | <a href="">Grievances Redressal Mechanism </a></p>
+      <p><a href="" style={{ textDecoration: "none" }}>Smart Online Dispute Resolution</a> | <a href="" style={{ textDecoration: "none" }}>Grievances Redressal Mechanism </a></p>
 
       <p>Investments in securities market are subject to market risks; read all the related documents carefully before
       investing.</p>
@@ -80,7 +82,7 @@ function Footer() {
       securities / MF / bonds in the consolidated account statement issued by
       NSDL/CDSL every month.</p>
       
-       <p>India's largest broker based on networth as per NSE.<a href=""> NSE broker factsheet</a> </p>
+       <p>India's largest broker based on networth as per NSE.<a href="" style={{ textDecoration: "none" }}> NSE broker factsheet</a> </p>
 
       <p>"Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers.
       Receive information of your transactions directly from Exchange on your
@@ -94,7 +96,7 @@ function Footer() {
       in case of allotment. In case of non allotment the funds will remain in
       your bank account. As a business we don't give stock tips, and have not
       authorized anyone to trade on behalf of others. If you find anyone
-      claiming to be part of TradeNova and offering such services, please <a href="">create a
+      claiming to be part of TradeNova and offering such services, please <a href="" style={{ textDecoration: "none" }}>create a
       ticket here</a>.</p>
 
        <p>*Customers availing insurance advisory services offered by
@@ -102,7 +104,9 @@ function Footer() {
       Agent (Composite) License No CA0738) will not have access to the exchange
       investor grievance redressal forum, SEBI SCORES/ODR, or arbitration
       mechanism for such products.</p>
+      </div>
     </div>
+    </footer>
   );
 }
 
