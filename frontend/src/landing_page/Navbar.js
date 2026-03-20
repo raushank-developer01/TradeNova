@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -6,9 +7,9 @@ function Navbar() {
       <div className="container">
 
         {/* Logo */}
-        <a className="navbar-brand fw-bold fs-3" href="#">
+        <Link className="navbar-brand fw-bold fs-3" to="/">
           TradeNova
-        </a>
+        </Link>
 
         {/* Mobile Toggle */}
         <button
@@ -25,23 +26,23 @@ function Navbar() {
           <ul className="navbar-nav gap-4">
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Signup</a>
+              <Link className="nav-link active" to="/signup">Signup</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">About</a>
+              <Link className="nav-link active" to="/about">About</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Product</a>
+              <Link className="nav-link active" to="/products">Product</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Pricing</a>
+              <Link className="nav-link active" to="/pricing">Pricing</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Support</a>
+              <Link className="nav-link active" to="/support">Support</Link>
             </li>
 
           </ul>
