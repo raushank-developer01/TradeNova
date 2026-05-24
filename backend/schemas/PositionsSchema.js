@@ -1,6 +1,6 @@
 const {Schema} = require("mongoose");
 
-const Positi = new Schema({
+const PositionsSchema = new Schema({
     porduct: String,
     name: String,
     qty: Number,
